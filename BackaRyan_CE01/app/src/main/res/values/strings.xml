@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BackaRyan_CE01</string>
+
+    <array name="spinner_array">
+        <item>SouthPark</item>
+        <item>TheWalkingDead</item>
+        <item>Gaming</item>
+        <item>TodayILearned</item>
+    </array>
+</resources>

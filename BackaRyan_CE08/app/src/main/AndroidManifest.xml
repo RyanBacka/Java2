@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ce08.java2.backaryan.backaryan_ce08">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.FormActivity">
+            <intent-filter>
+                <action android:name="com.fullsail.android.jav2ce08.ACTION_ADD_PERSON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.DetailsActivity">
+            <intent-filter>
+                <action android:name="com.fullsail.android.jav2ce08.ACTION_VIEW_PERSON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

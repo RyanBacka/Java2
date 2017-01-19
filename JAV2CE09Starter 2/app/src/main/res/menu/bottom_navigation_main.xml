@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/show_all"
+        android:enabled="true"
+        android:title="@string/all"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/under_thirty"
+        android:enabled="true"
+        android:title="@string/under_30"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/thirty_over"
+        android:enabled="true"
+        android:title="@string/above_30"
+        app:showAsAction="ifRoom" />
+</menu>

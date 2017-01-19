@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">BackaRyan_CE04</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="employee_num">Employee Number</string>
+    <string name="hire_date">Hire Date</string>
+    <string name="date_format">MM/DD/YYYY</string>
+    <string name="employment_status">Employment Status</string>
+    <string name="submit">Submit</string>
+    <string name="add_button">Add Employee</string>
+    <string name="delete_button">Delete Employee</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="preferences">Settings</string>
+    <string name="delete_all">DeleteAll</string>
+    <string name="back">Back</string>
+
+    <array name="info">
+        <item>@string/employment_status</item>
+        <item>@string/hire_date</item>
+    </array>
+
+    <array name="order">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </array>
+
+    <array name="date_choices">
+        <item>MM/DD/YYYY</item>
+        <item>Mon Day, Year</item>
+        <item>Month Day, Year</item>
+    </array>
+
+    <array name="statusChoices">
+        <item>Employee</item>
+        <item>Intern</item>
+        <item>Manager</item>
+        <item></item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

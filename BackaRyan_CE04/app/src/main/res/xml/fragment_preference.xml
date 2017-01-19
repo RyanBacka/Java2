@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Preferences">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:title="Date Preference"
+            android:entryValues="@array/date_choices"
+            android:key="list_preference_1"
+            android:entries="@array/date_choices" />
+
+        <Preference
+            android:title="Delete All Employees"
+            android:key="@string/delete_button"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
